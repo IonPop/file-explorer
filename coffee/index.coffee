@@ -1,5 +1,6 @@
 fs = require "fs"
 
+
 console.log process.memoryUsage()
 
 fs.readdir __dirname , (err,files) ->
